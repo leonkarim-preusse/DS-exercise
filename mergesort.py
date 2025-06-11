@@ -49,11 +49,15 @@ if __name__ == "__main__":
 
     plt.plot(range(len(sample_list)), sample_list)
     plt.title("Vorher")
+    plt.xlabel("Stelle im Array")
+    plt.ylabel("Wert an Stelle x im Array")
     plt.show()
 
     merge_sort(sample_list)
 
     plt.plot(range(len(sample_list)), sample_list)
     plt.title("Nachher")
+    plt.xlabel("Stelle im Array")
+    plt.ylabel("Wert an Stelle x im Array")
     plt.show()
 
